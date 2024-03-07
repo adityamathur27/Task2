@@ -30,7 +30,6 @@ class RecyclerViewAdapter(var items : ArrayList<dataClassItem>) : RecyclerView.A
     override fun getItemCount(): Int {
         return items.size
     }
-
 }
 class Holder(itemView : View) :RecyclerView.ViewHolder(itemView){
     val userID : TextView = itemView.findViewById(R.id.userId)
